@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header{
+    background-color: #F7F7F7;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+nav .menu{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.btn{
+    padding: 12px 20px;
+    background-color: #FF5D24;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.btn1{
+    padding: 9px 20px;
+    background-color: #EFEFEF;
+    color: #FF5D24;
+    border: none;
+    margin: 20px auto;
+}
+.make{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+h1{
+    font-size: 65px;
+}
+p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+span{
+    color: #FF5D24;
+}
+.img{
+    margin: 0 120px;
+}
+h2{
+    font-size: 50px;
+}
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+.cards{
+    display: flex;
+    margin: 60px auto;
+}
+.card{
+    width: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 1px 1px 80px;
+}
+.tomchi{
+    width: 60px;
+    height: 60px;
+    background-color: #FF5D24;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.support{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Our{
+    margin: 120px 100px;
+}
+.Couses{
+    text-align: center;
+    margin: 100px auto;
+}
